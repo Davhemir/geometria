@@ -1,9 +1,9 @@
 
-public class Rectangulo extends FiguraGeometrica {
+public class Rectangulo_DHM extends FiguraGeometrica_DHM {
 	private double l1;
 	private double l2;
 	
-	public Rectangulo(String tipoFigura, double lG, double lP) {
+	public Rectangulo_DHM(String tipoFigura, double lG, double lP) {
 		super(tipoFigura);
 		l1 = lG;
 		l2 = lP;
