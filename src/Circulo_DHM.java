@@ -6,6 +6,9 @@ public class Circulo_DHM extends FiguraGeometrica_DHM {
 	
 	public Circulo_DHM(double r, String tipoFigura) {
 		super(tipoFigura);
+		if(r<0) {
+			r = Math.abs(r);
+		}
 		radio = r;
 	}
 
